@@ -16,7 +16,7 @@ e.preventDefault();
 
   const sum = english + math + physicalSciences + lifeSciences +accounting + sepedi;
 
-  const average = sum/6;
+  const average = Math.round(sum / 6);
 
   if(average >=60){
     result.textContent= "Your Average is :" + average + "% " + " You're on the right track";
@@ -24,6 +24,21 @@ e.preventDefault();
   }else{
     result.textContent="Your Average is :" + average + "% " + " You're on the right track";
   }
+
+   if(
+  english === 0 || 
+  math === 0 || 
+  physicalSciences === 0 || 
+  lifeSciences === 0 || 
+  accounting === 0 || 
+  sepedi === 0
+
+   ){
+  result.textContent = "Please fill in all subjects.";
+  return;
+}
+
+   
 
 });
 
