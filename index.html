@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>Starting Point</title>
 </head>
 <body>
@@ -10,34 +11,48 @@
     <div class="container">
 
         <form id="marksForm">
-       <h1>Please Enter Marks for the below subjects</h1>
+
+           <h1>Average Calculator</h1> 
+
+       <div class="field">
+       <label for="subjects">English </label>
+       <input type="number" id="english" >
+       </div>
+
+        <div class="field">
+       <label for="subjects">Math </label>
+       <input type="number" id="math">
+       </div>
+
+       <div class="field">
+       <label for="subjects">Physical Sciences </label>
+       <input type="number" id="physicalSciences">
+       </div>
+
+        <div class="field">
+       <label for="subject">Life Sciences </label>
+       <input type="number" id="lifeSciences" >
+       </div>
+
+
+        <div class="field">
+       <label for="subject">Accounting </label>
+       <input type="number" id="accounting">
+       </div>
+
+       <div class="field">
+       <label for="subjects">Sepedi </label>
+       <input type="number" id="sepedi">
+       </div>
+
        
-       <label for="subjects">English :</label>
-       <input type="number" id="english" ><br>
-
-       <label for="subjects">Math :</label>
-       <input type="number" id="math"><br>
-
-       <label for="subjects">Physical Sciences :</label>
-       <input type="number" id="physicalSciences"><br>
-
-       <label for="subject">Life Sciences :</label>
-       <input type="number" id="lifeSciences" ><br>
-
-       <label for="subject">Accounting :</label>
-       <input type="number" id="accounting"><br>
-
-       <label for="subjects">Sepedi :</label>
-       <input type="number" id="sepedi"><br>
-
-       
-       <button id="CheckBtn">Check</button><br>
+       <button id="CheckBtn">Check</button>
 
        <p id="result"></p>
 
 
        </form>
-    
+    </div>
 
 
     </div>

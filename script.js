@@ -22,7 +22,7 @@ e.preventDefault();
     result.textContent= "Your Average is :" + average + "% " + " You're on the right track";
 
   }else{
-    result.textContent="Your Average is :" + average + "% " + " You're on the right track";
+    result.textContent="Your Average is :" + average + "% " + " You need an Improvement";
   }
 
    if(
