@@ -25,6 +25,10 @@ h1{
   color: whitesmoke;
 }
 
+p{
+  color: whitesmoke;
+}
+
 #marksForm{
   background-color: rgb(77, 77, 77);
   border-radius: 10px;
@@ -81,10 +85,11 @@ h1{
 }
 
 #result{
-  padding: 40px;
+  padding: 28px;
   border: 3px solid rgb(77, 77, 77);
   background-color: whitesmoke;
   max-width: 300px;
   border-radius: 8px;
+  color: rgb(77, 77, 77);
 }
 
