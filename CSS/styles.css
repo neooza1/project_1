@@ -5,14 +5,15 @@ body{
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  background-color: dodgerblue;
   
 
 }
 
 .container{
     max-width: 700px;
-    margin :0 auto;
-    padding: 24px;
+    margin :32px auto;
+   
     
 }
 
@@ -34,7 +35,7 @@ p{
   border-radius: 10px;
   font-weight: 600;
   font-size: 1.4rem;
-  padding: 24px;
+  padding: 32px;
   
 
   
